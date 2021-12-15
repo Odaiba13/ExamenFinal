@@ -1,0 +1,46 @@
+ul {
+    margin-left: 40px;
+    li {
+        list-style: none;
+        margin-left: -30px;
+        margin-right: -500px;
+        float: left;
+        img {
+            width: 100%;
+        }
+        #title {
+            font-size: 30px;
+        }
+        #recommendation {
+            width: 160px;
+            text-align: center;
+            border: 2px solid black;
+            font-size: 15px;
+            color: red;
+        }
+        #contenedor {
+            margin-left: 500px;
+            margin-right: -200px;
+            #brand {
+                font-size: 30px;
+                border: white;
+                padding-left: 20px;
+            }
+            #model {
+                border: white;
+                padding-left: 20px;
+            }
+            #desc {
+                border: white;
+                padding-left: 20px;
+                font-size: 15px;
+            }
+            #price {
+                border: white;
+                padding-left: 20px;
+                font-size: 20px;
+            }
+            
+        }
+    }
+}

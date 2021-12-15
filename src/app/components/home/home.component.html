@@ -1,0 +1,24 @@
+<div class="container">
+    <h2>E-Commerce</h2>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-12" id="caja">
+                <ul>
+                    <li *ngFor="let product of ListaProducts" style="float: left;" class="mb-4">
+                        <div style="width: 16rem;">
+                            <img src="../../../assets/{{product.imgs}}" class="card-img-top " id="imgs">
+                        </div>
+                        <div class="card-body" id="caja-caja" style="width: 12rem;"></div>
+                        <p id="brand">{{product.brand}}</p>
+                        <p id="model">{{product.model}}</p>
+                        <br>
+                        <button id="button" [routerLink]="['Details', product.id]">Ver</button>
+                        <br>
+                        <br>
+                        <p id="price">{{product.price}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
